@@ -9,6 +9,13 @@
       "js": ["init.js"]
     }
   ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage"
+  ],
   "web_accessible_resources": [
     "lib/index.js"
   ]
